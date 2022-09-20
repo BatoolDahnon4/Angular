@@ -8,10 +8,11 @@ interface UserVM{
   
 }
 
+
 @Component({
     selector: 'app-user-form',
     templateUrl: './user-form.component.html',
-    
+
     
   })
  
@@ -27,9 +28,9 @@ export class UserFormComponent implements OnInit {
   {
     name:'Hala ',
     age: 16,
-}
+  }
    ];
-
+  
   constructor() { }
   ngOnInit(): void {
   }
